@@ -68,10 +68,21 @@ body {
 /* .logo:hover {
     transform: scale(1.1);
 } */
-.menu__movil 
-
+.menu__movil {
+    text-align: center;
+    color: var(--gris);
+    font-size: 3.2rem;
+}
+@media (min-width: 768px) {
+    .menu__movil {
+        display: none;
+    }
+}
+.menu__movil:hover {
+    cursor: pointer;
+}
 .navegacion {
-    display: flex;
+    display: none;
     flex-direction: column;
     gap: 1.2rem;
     align-items: center;
@@ -436,7 +447,10 @@ body {
     background-color: var(--gris);
 }
 
-
+/**** MANTENER SIEMPRE ULTIMA *******/
+.mostrar {
+    display: flex;
+}
 
 
 
