@@ -1,0 +1,36 @@
+<svg width="360" height="409" viewBox="0 0 360 409" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<path d="M325 67H25C11.1929 67 0 75.9543 0 87V327C0 338.046 11.1929 347 25 347H325C338.807 347 350 338.046 350 327V87C350 75.9543 338.807 67 325 67Z" fill="#F7E1D6"/>
+<path id="barba" fill-rule="evenodd" clip-rule="evenodd" d="M1 194H20V304C20 309.523 24.4772 314 30 314H90C95.5229 314 100 309.523 100 304C100 298.477 104.477 294 110 294H240C245.523 294 250 298.477 250 304C250 309.523 254.477 314 260 314H320C325.523 314 330 309.523 330 304V194H350V344.615C350 356.024 342.276 365.986 331.226 368.828L177.49 408.36C175.857 408.78 174.143 408.78 172.51 408.36L18.774 368.828C7.7243 365.986 0 356.024 0 344.615V194ZM135 309C129.477 309 125 313.477 125 319V329C125 334.523 129.477 339 135 339H215C220.523 339 225 334.523 225 329V319C225 313.477 220.523 309 215 309H135Z" fill="#2C2C2C">
+<animateTransform attributeType="XML" attributeName="transform" type="translate" values="0,0; 0,300" begin="Dario.click" dur="0.2" fill="freeze"/>
+<animateTransform attributeType="XML" attributeName="transform" type="translate" values="400,0; 0,0" begin="Dario.auxclick" dur="0.4" fill="freeze"/>
+</path>
+<path d="M21.0052 47.3984C8.50449 51.3272 0 62.9146 0 76.0182V213.038C0 213.57 0.43049 214 0.96154 214C14.2376 214 25 202.276 25 189V161.5C25 151.835 32.835 144 42.5 144V144C52.165 144 60 136.165 60 126.5V104C60 92.9543 68.9543 84 80 84H270C281.046 84 290 92.9543 290 104V126.5C290 136.165 297.835 144 307.5 144V144C317.165 144 325 151.835 325 161.5V189C325 202.276 335.762 214 349.038 214C349.57 214 350 213.57 350 213.038V76.0182C350 62.9146 341.495 51.3272 328.995 47.3984L183.995 1.82693C178.139 -0.0133167 171.861 -0.0133149 166.005 1.82694L21.0052 47.3984Z" fill="#1C1C1C"/>
+<path d="M150 324H200Z" fill="black"/>
+<path d="M150 324H200" stroke="#DDC2B4" stroke-width="8" stroke-linecap="round">
+<animateTransform attributeType="XML" attributeName="transform" type="translate" values="0,0; 0,-1; 0,0"  dur="3" repeatCount="indefinite"/>
+</path>
+<path d="M145 171H70Z" fill="black"/>
+<path id="ceja1" d="M145 171H70" stroke="#1C1C1C" stroke-width="10" stroke-linecap="round">
+<animateTransform attributeType="XML" attributeName="transform" type="translate" values="0,0; 0,2; 0,0" begin="0s;Dario.mouseout" end="Dario.mouseover" dur="1" repeatCount="indefinite"/>
+<animateTransform attributeType="XML" attributeName="transform" type="translate" values="0,0; 0,8" begin="Dario.mouseover" dur="0.2" fill="freeze"/>
+<animateTransform attributeType="XML" attributeName="transform" type="translate" values="0,8; 0,0" begin="Dario.mouseout" dur="0.2"/>
+</path>
+<path  d="M280 171H205Z" fill="#c25151"/>
+<path id="ceja2" d="M280 171H205" stroke="#1C1C1C" stroke-width="10" stroke-linecap="round">
+<animateTransform attributeType="XML" attributeName="transform" type="translate" values="0,0; 0,2; 0,0" begin="0s;Dario.mouseout" end="Dario.mouseover" dur="1" repeatCount="indefinite"/>
+<animateTransform attributeType="XML" attributeName="transform" type="translate" values="0,0; 0,8" begin="Dario.mouseover" dur="0.2" fill="freeze"/>
+<animateTransform attributeType="XML" attributeName="transform" type="translate" values="0,8; 0,0" begin="Dario.mouseout" dur="0.2"/>
+</path>
+<rect id="ojo1" x="100" y="184" width="15" height="25" rx="7.5" fill="black"0>
+<animateTransform attributeType="XML" attributeName="transform" type="translate" values="0,0; 0,-1; 0,0"  dur="2" repeatCount="indefinite"/>
+<animateTransform id="ojoizq" attributeType="XML" attributeName="transform" type="translate" values="0,0; -25,0" begin="Dario.mouseover" dur="0.2" fill="freeze"/>
+<animateTransform id="ojocen" attributeType="XML" attributeName="transform" type="translate" values="-25,0; 0,0" begin="Dario.mouseout" dur="0.4" fill="freeze"/>
+</rect>
+<rect id="ojo2" x="235" y="184" width="15" height="25" rx="7.5" fill="black">
+<animateTransform attributeType="XML" attributeName="transform" type="translate" values="0,0; 0,-1; 0,0"  dur="2" repeatCount="indefinite"/>
+<animateTransform attributeType="XML" attributeName="transform" type="translate" values="0,0; -25,0" begin="Dario.mouseover" dur="0.2" fill="freeze"/>
+<animateTransform attributeType="XML" attributeName="transform" type="translate" values="-25,0; 0,0" begin="Dario.mouseout" dur="0.4" fill="freeze"/>
+</rect>
+<rect id="Dario" width="360" height="409" opacity="0" fill="black"/>
+</svg>

@@ -1,0 +1,36 @@
+<svg width="352" height="371" viewBox="0 0 352 371"  xmlns="http://www.w3.org/2000/svg">
+<rect class="face" x="1" y="21" width="350" height="350" rx="25" fill="#F7E1D6"/>
+<path d="M1 41V200.038C1 200.57 1.43049 201 1.96154 201C15.2376 201 26 190.238 26 176.962V98.9847C26 81.8338 35.6901 66.155 51.0303 58.4849C67.1432 50.4284 85.6066 48.4016 103.083 52.7709L151.746 64.9366C167.67 68.9176 184.33 68.9176 200.254 64.9366L248.917 52.7709C266.393 48.4016 284.857 50.4284 300.97 58.4849C316.31 66.155 326 81.8338 326 98.9847V176.962C326 190.238 336.762 201 350.038 201C350.57 201 351 200.57 351 200.038V46C351 32.1929 339.807 21 326 21H321C321 9.95431 312.046 1 301 1H51C39.9543 1 31 9.95431 31 21H21C9.95431 21 1 29.9543 1 41Z" fill="#1C1C1C" stroke="black"/>
+<rect id="ojo1" x="100" y="184" width="15" height="25" rx="7.5" fill="black"0/>
+<rect id="ojo1" x="235" y="184" width="15" height="25" rx="7.5" fill="black"0/>
+<g id="lentes">
+    <rect x="197" y="167" width="108" height="58" fill="url(#paint0_linear)" stroke="#4D4D4D" stroke-width="8" stroke-linejoin="round"/>
+    <rect x="47" y="167" width="108" height="58" fill="url(#paint1_linear)" stroke="#4D4D4D" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M151 181H201" stroke="#4C4C4C" stroke-width="8"/>
+    <animateTransform attributeType="XML" attributeName="transform" type="translate" values="0,0;0,2;0,0" dur="1" begin="0;lentesarriba.end" end="lentesabajo.begin" repeatCount="indefinite"></animateTransform>
+    <animateTransform id="lentesabajo" attributeType="XML" attributeName="transform" type="translate" values="0,0;0,40" dur="0.3" begin="Alan.mousedown" fill="freeze"></animateTransform>
+    <animateTransform id="lentesarriba" attributeType="XML" attributeName="transform" type="translate" values="0,40;0,0" dur="0.2" begin="Alan.mouseup" fill="freeze"></animateTransform>
+</g>
+<path d="M126 296H226" stroke="#DDC2B4" stroke-width="8" stroke-linecap="round">
+<animate attributeType="XML" attributeName="d" values="M126 296 H226; M136 296 H216;M126 296 H226" dur="3" repeatCount="indefinite"></animate>
+</path>
+<path id="ceja2" d="M291 151H201" stroke="#1C1C1C" stroke-width="10" stroke-linecap="round">
+<animateTransform attributeType="XML" attributeName="transform" type="translate" values="0,0;0,-2;0,0" dur="1" begin="0;ceja2abajo.end" end="ceja2up.begin" repeatCount="indefinite"/>
+<animateTransform id="ceja2arriba" attributeType="XML" attributeName="transform" type="translate" values="0,0;0,-20" dur="0.3" begin="Alan.mouseover" fill="freeze"/>
+<animateTransform id="ceja2abajo" attributeType="XML" attributeName="transform" type="translate" values="0,-20;0,0" dur="0.2" begin="Alan.mouseout" fill="freeze"/>
+</path>
+<path id="ceja1" d="M151 151H61" stroke="#1C1C1C" stroke-width="10" stroke-linecap="round"><animateTransform attributeType="XML" attributeName="transform" type="translate" values="0,0;0,-2;0,0" dur="1" repeatCount="indefinite"></animateTransform></path>
+<defs>
+<linearGradient id="paint0_linear" x1="301" y1="171" x2="201" y2="221" gradientUnits="userSpaceOnUse">
+<stop offset="0.390625" stop-color="#D5F0F8"/>
+<stop offset="0.5" stop-color="white"/>
+<stop offset="0.619792" stop-color="#D5F0F8"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="151" y1="171" x2="51" y2="221" gradientUnits="userSpaceOnUse">
+<stop offset="0.390625" stop-color="#D5F0F8"/>
+<stop offset="0.5" stop-color="white"/>
+<stop offset="0.619792" stop-color="#D5F0F8"/>
+</linearGradient>
+</defs>
+<rect id="Alan" width="352" height="371" opacity="0" />
+</svg>
