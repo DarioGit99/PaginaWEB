@@ -68,6 +68,7 @@ body {
 /* .logo:hover {
     transform: scale(1.1);
 } */
+.menu__movil 
 
 .navegacion {
     display: flex;
@@ -195,6 +196,10 @@ body {
 .cart__imagen img {
     width: 100%;
     border-radius: 50%;
+}
+.cart__imagen object {
+    width: 100%;
+    border-radius: 50%;
 }   
 .cart__info {
     padding: 1rem 2rem 0 2rem;
@@ -217,6 +222,7 @@ body {
     font-size: 2.2rem;
     color: var(--blanco);
 }
+
 .cart {
     position: relative;
 }
